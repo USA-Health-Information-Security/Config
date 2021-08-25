@@ -21,16 +21,6 @@
   <AppConfig Executable="ExtExport.exe">
     <ASLR ForceRelocateImages="true" RequireInfo="false" />
   </AppConfig>
-  <AppConfig Executable="ffxivboot.exe">
-    <ExtensionPoints DisableExtensionPoints="false" />
-    <DynamicCode BlockDynamicCode="false" AllowThreadsToOptOut="false" />
-    <SignedBinaries MicrosoftSignedOnly="false" AllowStoreSignedBinaries="false" />
-    <ChildProcess DisallowChildProcessCreation="false" />
-  </AppConfig>
-  <AppConfig Executable="ffxivupdater.exe">
-    <DynamicCode BlockDynamicCode="false" AllowThreadsToOptOut="false" />
-    <ChildProcess DisallowChildProcessCreation="false" />
-  </AppConfig>
   <AppConfig Executable="graph.exe">
     <ASLR ForceRelocateImages="true" RequireInfo="false" />
   </AppConfig>
