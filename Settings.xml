@@ -96,6 +96,7 @@
   <AppConfig Executable="PSViewer.exe">
     <DEP Enable="false" EmulateAtlThunks="false" />
     <SEHOP Enable="false" TelemetryOnly="false" />
+    <ControlFlowGuard Enable="false" SuppressExports="false" />
   </AppConfig>
   <AppConfig Executable="PresentationHost.exe">
     <DEP Enable="true" EmulateAtlThunks="false" />
