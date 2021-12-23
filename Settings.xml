@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MitigationPolicy>
   <SystemConfig>
-    <DEP Enable="true" EmulateAtlThunks="false" />
-    <ASLR ForceRelocateImages="true" RequireInfo="false" BottomUp="true" HighEntropy="true" />
-    <ControlFlowGuard Enable="true" SuppressExports="false" />
-    <SEHOP Enable="true" TelemetryOnly="false" />
+    <DEP Enable="false" EmulateAtlThunks="false" />
+    <ASLR ForceRelocateImages="false" RequireInfo="false" BottomUp="false" HighEntropy="false" />
+    <ControlFlowGuard Enable="false" SuppressExports="false" />
+    <SEHOP Enable="false" TelemetryOnly="false" />
+    <Heap TerminateOnError="false" />
   </SystemConfig>
   <AppConfig Executable="clview.exe">
     <ASLR ForceRelocateImages="true" RequireInfo="false" />
