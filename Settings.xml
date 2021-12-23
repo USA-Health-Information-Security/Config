@@ -93,6 +93,12 @@
   <AppConfig Executable="powerpnt.exe">
     <ASLR ForceRelocateImages="true" RequireInfo="false" />
   </AppConfig>
+  <AppConfig Executable="ssicp.exe">
+    <DEP Enable="false" EmulateAtlThunks="false" />
+    <ASLR ForceRelocateImages="false" RequireInfo="false" BottomUp="true" HighEntropy="true" />
+    <ControlFlowGuard Enable="false" SuppressExports="false" />
+    <SEHOP Enable="false" TelemetryOnly="false" />
+  </AppConfig>
   <AppConfig Executable="PSViewer.exe">
     <DEP Enable="false" EmulateAtlThunks="false" />
     <ASLR ForceRelocateImages="false" RequireInfo="false" BottomUp="true" HighEntropy="true" />
