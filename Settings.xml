@@ -95,13 +95,13 @@
   </AppConfig>
   <AppConfig Executable="ssicp.exe">
     <DEP Enable="false" EmulateAtlThunks="false" />
-    <ASLR ForceRelocateImages="false" RequireInfo="false" BottomUp="true" HighEntropy="true" />
+    <ASLR ForceRelocateImages="false" RequireInfo="false" BottomUp="false" HighEntropy="false" />
     <ControlFlowGuard Enable="false" SuppressExports="false" />
     <SEHOP Enable="false" TelemetryOnly="false" />
   </AppConfig>
   <AppConfig Executable="PSViewer.exe">
     <DEP Enable="false" EmulateAtlThunks="false" />
-    <ASLR ForceRelocateImages="false" RequireInfo="false" BottomUp="true" HighEntropy="true" />
+    <ASLR ForceRelocateImages="false" RequireInfo="false" BottomUp="false" HighEntropy="false" />
     <ControlFlowGuard Enable="false" SuppressExports="false" />
     <SEHOP Enable="false" TelemetryOnly="false" />
   </AppConfig>
