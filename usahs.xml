@@ -1,0 +1,15 @@
+<site-list version="1">
+  <created-by>
+    <tool>EMIESiteListManager</tool>
+    <version>12.0.0.0</version>
+    <date-created>02/04/2022 15:49:00</date-created>
+  </created-by>
+  <site url="southalabama.erp.premierinc.com">
+    <compat-mode>Default</compat-mode>
+    <open-in>IE11</open-in>
+  </site>
+  <site url="pacs.usouthal.edu">
+    <compat-mode>Default</compat-mode>
+    <open-in>IE11</open-in>
+  </site>
+</site-list>
